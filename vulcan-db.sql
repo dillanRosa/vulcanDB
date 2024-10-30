@@ -11,7 +11,7 @@ CREATE TABLE CLIENTE(
     id int AUTO_INCREMENT PRIMARY KEY,
     cpf CHAR(14) NOT NULL UNIQUE,
     nome VARCHAR(100) NOT NULL,
-    tefefone VARCHAR(20),
+    telefone VARCHAR(20),
     lugar_de_saida VARCHAR(100),
     lugar_de_destino VARCHAR(100),
     meio_de_transporte VARCHAR(100),
